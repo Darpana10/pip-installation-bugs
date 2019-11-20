@@ -1,0 +1,23 @@
+C:\Program Files\Python37>python -m pip install --upgrade pip --user
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl
+Installing collected packages: pip
+Successfully installed pip-19.3.1
+
+C:\Program Files\Python37>pip list
+Traceback (most recent call last):
+  File "c:\program files\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\program files\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Program Files\Python37\Scripts\pip.exe\__main__.py", line 9, in <module>
+TypeError: 'module' object is not callable
+
+C:\Program Files\Python37>pip -V
+Traceback (most recent call last):
+  File "c:\program files\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\program files\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Program Files\Python37\Scripts\pip.exe\__main__.py", line 9, in <module>
+TypeError: 'module' object is not callable
